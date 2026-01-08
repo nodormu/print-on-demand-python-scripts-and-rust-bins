@@ -2,6 +2,7 @@ Are you tired of old outdated UIs that are long overdue to be updated due to rep
 Try this out.
 
 I used Ubuntu 24.04 LTS, but this should run on any OS with python installed that has a GUI and pynput installed.
+(I don't have Rust code put together yet for a comparison/contrast, but it shouldn't be too hard to deal with)
 
 Dependencies:
 
