@@ -1,0 +1,112 @@
+Using image-size-conversion.py, we are going to take this roadtested script and use it as a workflow to build a Rust bin from.
+
+Your Python script does: (needs python pip packge Pillow>10.0.0)
+a) Iterate a folder of images (.tif files or whatever you want to change the file type to watch for).
+b) Resize each image into multiple dimensions/DPI settings.
+c) Save resized images as PNG.
+d) Check if any saved file is too big and handle it.
+e) Log skipped files.
+
+Here is how the current python to Rust Mapping will work for translating dependencies
+
+deps
+----
+os.listdir()            ->	std::fs::read_dir()
+os.path.join()          ->  PathBuf::join()
+os.makedirs()           ->  std::fs::create_dir_all()
+PIL.Image.open()        ->  image::open()
+img.resize()            ->  DynamicImage.resize_exact()
+img.save()              ->	DynamicImage.save()
+try/except	            ->  Result<T, E> and ? operator
+file size check	        ->  std::fs::metadata(path)?.len()
+logging to text file    ->	std::fs::File + writeln!()
+
+mapping process
+---------------
+os.makedirs(...)	               -> create_dir_all(...)
+os.listdir(...)	                   -> read_dir(...)
+filename.lower().endswith(".tif")  -> check extension with Path
+with Image.open(...)	           -> image::open(...)
+img.resize()	                   -> DynamicImage.resize_exact()
+resized.save(...)	               -> DynamicImage.save(...)
+file size check (os.path.getsize)  -> metadata(path)?.len()
+exception handling	               -> Result<T, E> / ? operator
+logging to file	                   -> File + writeln!()
+
+The difference is that python can use exceptions for handling errors, where as Rust will force you to handle them explicitly.
+a) Error handling: Rust will force you to handle errors explicitly rather than relying on exceptions.
+b) Metadata/DPI: You may need an extra crate (png or image-png) to write DPI.
+c) Loop ergonomics: Rust requires more type annotation and ownership management.
+
+Advantages for Rust for this particular script example:
+a) Faster image resizing (especially with multi-threading via rayon if needed)
+b) Strong type safety prevents accidentally skipping file errors
+c) Explicit memory management avoids large RAM spikes when processing many large images
+d) Easy to build as a CLI tool
+
+Resource usage difference
+a) Rust doesn’t automatically manage memory — large images need careful lifetime management.
+b) Each operation can fail, so you must propagate or handle errors (Result<T, E>).
+c) Python’s with context automatically closes files; Rust relies on scoping — files are closed when they go out of scope.
+d) Everything in Rust is explicit. Opening files, resizing images, saving, checking sizes — all return results that you must handle.
+e) Memory is explicit. Large images are moved or borrowed; no garbage collector.
+f) Errors are not optional. Every disk or image operation can fail, and Rust forces you to decide how to handle it.
+g) Data structures are typed. Vec<(u32, u32, u32)> instead of a loosely structured list of tuples.
+
+Rust project structure for CLI binary
+image_resizer/
+├── Cargo.toml
+├── src/
+│   ├── main.rs          # entry point
+│   ├── config.rs        # constants and settings
+│   ├── filesystem.rs    # folder handling, file iteration
+│   ├── images.rs        # image open/resize/save logic
+│   └── logger.rs        # skipped files logging
+└── target/              # build output
+
+a) Cargo.toml: defines the project, version, and any external crates (like image) you’ll use.
+b) src/main.rs: contains the Rust code for your executable.
+c) target/: created when you compile; contains compiled binaries (release and debug folders).
+d) Cargo.lock: tracks exact versions of dependencies for reproducible builds.
+
+Rust Folder/File structure summary
+a) Rust projects are organized around Cargo: Cargo.toml + src/.
+b) Binary is built from src/main.rs.
+c) Dependencies go in Cargo.toml.
+d) Compiling creates target/release/<binary>.
+e) For larger projects, you can break into multiple modules (.rs files) and import them in main.rs
+
+Post checks after conversion and how this mirrors python
+Python action -> Rust equivalent
+a) resized.save(..., compress_level=0) -> save_png_with_compression(..., Compression::Fast)
+b) check file size	-> fs::metadata(path)?.len()
+c) compress_level=2 retry	-> save_png_with_compression(..., Compression::Best)
+d) delete if too large	-> fs::remove_file(&out_path)?
+e) log skipped	-> writeln!(skipped_log, ...)
+
+Now lets modularize this so its not all jumbled in just a main.rs
+Everything is now modularized:
+a) config.rs → constants/settings
+b) filesystem.rs → folder/file handling
+c) images.rs → resizing, compression, file size check
+d) logger.rs → skipped file logging
+e) main.rs → orchestration
+
+Double-check: Python vs Rust parity
+Python Step	Rust Implementation
+a) Iterate .tif files	list_tif_files() in filesystem.rs ✅
+b) Resize with multiple settings	resize_and_save() in images.rs ✅
+c) First save, no compression	Compression::Fast ✅
+d) Re-save with compression if too large	Compression::Best ✅
+e) Check file size	fs::metadata()?.len() ✅
+f) Remove file if still too large	fs::remove_file() ✅
+g) Log skipped files	logger.rs::Logger ✅
+h) Print skipped messages	eprintln!("⚠️ Skipped ...") ✅
+i) Ensure output folder exists	ensure_folder_exists() ✅
+j) Done messages	println!("✅ Done...") ✅
+
+
+
+
+
+
