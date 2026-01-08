@@ -1,3 +1,4 @@
 Be sure you change/add/remove the required length x width x DPI in the config.rs file before compiling
 Be sure you change the path for your watch and output folder in the config.rs file before compiling.
+Be sure you change the max resize settings so the outputs do not exceed your maximum file size requirements
 Compile command:  cargo build --release
