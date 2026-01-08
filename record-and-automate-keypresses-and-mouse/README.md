@@ -1,3 +1,8 @@
+Are you tired of old outdated UIs that a long overdue to be updated due to repetitively having to type and do the same mouse clicks over and over.
+Try this out.
+
+I used Ubuntu 24.04 LTS, but this should run on any OS with python installed that has a GUI and pynput installed.
+
 Dependencies:
 
 System:
