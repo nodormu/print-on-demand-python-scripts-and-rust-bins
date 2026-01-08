@@ -1,3 +1,4 @@
 Be sure you change the path for your watch and output folder.
 Be sure you change the .tif file it looks for to .png, .jpg or whatever the image file type is.
 Be sure you have the pip package pillow > 10.0.0 installed
+Be sure you change/remove/add the Length x Width x DPI dimensions you need for your outputs.
