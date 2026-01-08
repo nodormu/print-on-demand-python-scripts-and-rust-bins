@@ -3,3 +3,4 @@ Be sure you change the path for your watch and output folder in the config.rs fi
 Be sure you change the max resize settings so the outputs do not exceed your maximum file size requirements
 Compile command:  cargo build --release
 File outputs are .png
+This was compiled and run on Ubuntu 24.04 LTS, but granted how wonderful Rust is, you should be able to compile it on windows or mac as well, but I can't speak for those systems and their catch 22s.
