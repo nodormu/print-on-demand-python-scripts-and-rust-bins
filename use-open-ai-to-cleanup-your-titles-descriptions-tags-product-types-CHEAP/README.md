@@ -1,4 +1,4 @@
-This was done on Ubuntu 24.04 LTS using python 3.12.x, but these scripts should run fine on windows and mac using python as long as your pip deps are setup
+This was done on Ubuntu 24.04 LTS using python 3.12.x, but these scripts should run fine on windows and mac using python as long as your pip deps are setup  
 Here are the commands for ubuntu 24.04 LTS
 sudo apt update
 sudo apt install python3-dev python3-pip
