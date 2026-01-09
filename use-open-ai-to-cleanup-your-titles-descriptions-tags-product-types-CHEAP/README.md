@@ -38,7 +38,7 @@ to the exported CSV file, so the header line is filename,name,description,custom
 
 This allows you to manually (or thru your own script) add a custom tag and give you a chance to spot check the names and descriptions as a sanity check for you products.
 
-The custom tag (or multiple tags, which would need to be separated by |, i.e. prinitfy|kitchen|living room) will be placed at the end of the list of those generated with the OpenAI API call.
+The custom tag (or multiple tags, which would need to be separated by |, i.e. printify|kitchen|living room) will be placed at the end of the list of those generated with the OpenAI API call.
 
 The cool part about this script, is that you don't have to put a custom tag, but be sure the header is there or the script will fail, and if you do happen to add custom_tags and miss an entry, the script fails and the screen output shows you where it failed, then you can go into the CSV file, add the one you missed, then restart the script and it will pick up where it left off because of the PICKUP_TEXT_FILE.
 
