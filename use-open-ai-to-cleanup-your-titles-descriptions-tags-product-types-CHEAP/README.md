@@ -3,7 +3,7 @@ Here are the commands for ubuntu 24.04 LTS
 sudo apt update  
 sudo apt install python3-dev python3-pip
 
-Then source to your python sandbox and pip install
+Then source to your python sandbox and pip install  
 pip install openai==1.99.4
 
 You might be able to use newer versions, but I had ZERO luck with 2.x and newer. 1.99.9 might work, but I haven't tested it yet.
