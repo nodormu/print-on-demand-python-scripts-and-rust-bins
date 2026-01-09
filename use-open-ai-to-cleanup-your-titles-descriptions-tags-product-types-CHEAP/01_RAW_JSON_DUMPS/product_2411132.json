@@ -1,0 +1,109 @@
+{
+    "status": "success",
+    "is_supplier_active": true,
+    "data": {
+        "in_stock_notification": false,
+        "product": {
+            "id": 2411132,
+            "name": "PERFEMET 5 Pieces Girls Blush Comforter Set Full Aesthetic Solid Pom Pom Comforter Soft Microfiber Blush Pink Bed in A Bag Kids for All Season(Blush Full)",
+            "description": "[【Pom Pom Design】Each pompom is handmade to add a touch of fun and cuteness to the solid color bedding comforter sets  while presenting the whole room with sophistication indulging in the beauty of the room and bringing you the ultimate comfort and deep sleep. 【Bed in a Bag】The whole style of boho pompoms comforter set is the same color and even the stitching is matched with the blush boho bedspread. To decorate the room better each pink comforter set comes with pink fitted sheet and top flat sheet. The blush deep pocket fitted sheet is designed with 16in depth which can wrap the mattress very well. This is certainly a better choice for those who prefer a uniform style. 【Soft Material&Thickened Filling】The main component of fabric is microfiber polyester and the finely crafted fabric makes the surface of the boho bedding smooth and soft to the touch. The filling of the blush comforter is thickened to make it fluffy and comfortable lightweight but warm it could keep you cool in summer and warm in winter and to fix the filling we added some hidden stitches to make sure the filling is in the right place after washing. 【Full Size Package Include】PERFEMET pink pom comforter set full size includes 5pcs 1 pom comforter 79x90in 2 pom envelope pillowcases 20x30in 1 solid color fitted sheet 54x75in+16in 1 solid color flat sheet 81x96in harmonized color combination can well decorate any room. 【Care Instruction】This blush pink quilt set is machine washable in cold water on gentle mode tumble dry below 30 degrees do not soak do not wash for too long do not bleach. Note: Since the quilt is vacuum wrapped it might be wrinkle when received you can put it in the dryer at low temperature to make it flat and the comforter will become more and more fluffy.]",
+            "sku": null,
+            "inventory_tracking": false,
+            "base_selling_price": null,
+            "base_cost_price": "56.99",
+            "base_profit_margin": "9.69",
+            "product_type": null,
+            "featured_image": 29037285,
+            "status": 1,
+            "created_by": 3328809,
+            "quotable": null,
+            "isPrivate": false,
+            "featured": 0,
+            "supplier_id": 417,
+            "supplier_fee": 0,
+            "shipping_adapter": "shipping_supplier",
+            "display_price": "66.68",
+            "is_quoting": false,
+            "not_quotable": false,
+            "ready_for_quote": false,
+            "is_quoted": false,
+            "supplier": {
+                "id": 417,
+                "type": "zinc",
+                "name": "Amazon Products",
+                "processing_time": "0",
+                "is_disabled_marketplaces": false,
+                "user": {
+                    "id": 3328809
+                },
+                "country_info": {
+                    "id": 231,
+                    "name": "United States",
+                    "code": "US",
+                    "phonecode": 1
+                },
+                "average_shipping_times": [
+                    {
+                        "id": 98,
+                        "supplier_id": 417,
+                        "country_code": "US",
+                        "average_days": 2,
+                        "updated_by": 3249367,
+                        "created_at": "2025-01-20T11:26:50.000000Z",
+                        "updated_at": "2025-01-20T11:26:50.000000Z"
+                    }
+                ]
+            },
+            "product_variant": [
+                {
+                    "id": 23349821,
+                    "product_id": 2411132,
+                    "variant_sku": "B0CKVZSHTV",
+                    "variant_selling_price": null,
+                    "variant_cost_price": 56.99,
+                    "variant_profit_margin": 9.69,
+                    "variant_size": "Full(5 Pcs)",
+                    "variant_color": "Blush",
+                    "profit_percentage": 17,
+                    "variant_product_type": null,
+                    "variant_weight": null,
+                    "map": null,
+                    "variant_inventory": 50000,
+                    "variant_image": "417/webp/e8dApBFYR5UlMpKF.webp",
+                    "variant_image_info": {
+                        "variant_image_url": "417/webp/e8dApBFYR5UlMpKF.webp"
+                    },
+                    "shipping_costs": [],
+                    "originalCost": null,
+                    "discount": null
+                }
+            ],
+            "product_image": [
+                {
+                    "id": 29037285,
+                    "full_image": "417/kipQjWTWnJUIT3JO.jpeg",
+                    "medium_image": null,
+                    "small_image": null,
+                    "webp_image": "417/webp/kipQjWTWnJUIT3JO.webp",
+                    "big": "417/webp/kipQjWTWnJUIT3JO.webp"
+                }
+            ],
+            "featured_image_url": "417/webp/kipQjWTWnJUIT3JO.webp",
+            "featuredProductImage": {
+                "id": 29037285,
+                "full_image": "417/kipQjWTWnJUIT3JO.jpeg",
+                "medium_image": null,
+                "small_image": null,
+                "webp_image": "417/webp/kipQjWTWnJUIT3JO.webp"
+            },
+            "similar_product": null,
+            "shippingCountries": [
+                "us"
+            ],
+            "tiktok_product_data": {
+                "is_available": true
+            },
+            "shipping_discount_rules": []
+        }
+    }
+}

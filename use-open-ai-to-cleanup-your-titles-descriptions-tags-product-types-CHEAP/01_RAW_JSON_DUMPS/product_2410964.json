@@ -1,0 +1,109 @@
+{
+    "status": "success",
+    "is_supplier_active": true,
+    "data": {
+        "in_stock_notification": false,
+        "product": {
+            "id": 2410964,
+            "name": "Wajade Kids Space Comforter Set Bed in A Bag Twin Size 7 Piece 3D Space Rocket Planets Bedding Set for Teens Boys Girls (1 Comforter 1 Flat Sheet 1 Fitted Sheet 2 Pillowcase and 2 Pillow Sham)",
+            "description": "[Premium Microfiber - This kids bedding has lightweight material which makes it breathable enough for hot summer nights while keeping your little one warm once those colder months roll around. 7 Piece Kids Space Comforter Set - 1 Twin comforter 68 inch x 86 inch + 2 standard pillowcases 20 inch x 26 inch - 1 twin size fitted sheet 39 inch x 75 inch - 1 twin size flat sheet 66 inch x 96 inch - 2 standard pillowcase 20 inch x 26 inch. \"Unique Design - The comforters front side is designed with various space items cartoon space rocket planets stars and moons on dark blue background. Add fun and playful touch to kids bed with our designer bedding for kids.\" Great Bedding Decor - 3D cartoon space comforter bedding sets bring warmth and comfort to adults and kids. It will give the house a sense of humanity & artistry. Great bedding for children and adults. Great choice for birthday present and Christmas present on holidays. Washing Instructions - Machine washed cold separately with gentle cycle. Air dry or tumble dry on low heat. Please do not bleach.]",
+            "sku": null,
+            "inventory_tracking": false,
+            "base_selling_price": null,
+            "base_cost_price": "64.07",
+            "base_profit_margin": "10.89",
+            "product_type": null,
+            "featured_image": 29036884,
+            "status": 1,
+            "created_by": 3328809,
+            "quotable": null,
+            "isPrivate": false,
+            "featured": 0,
+            "supplier_id": 417,
+            "supplier_fee": 0,
+            "shipping_adapter": "shipping_supplier",
+            "display_price": "74.96",
+            "is_quoting": false,
+            "not_quotable": false,
+            "ready_for_quote": false,
+            "is_quoted": false,
+            "supplier": {
+                "id": 417,
+                "type": "zinc",
+                "name": "Amazon Products",
+                "processing_time": "0",
+                "is_disabled_marketplaces": false,
+                "user": {
+                    "id": 3328809
+                },
+                "country_info": {
+                    "id": 231,
+                    "name": "United States",
+                    "code": "US",
+                    "phonecode": 1
+                },
+                "average_shipping_times": [
+                    {
+                        "id": 98,
+                        "supplier_id": 417,
+                        "country_code": "US",
+                        "average_days": 2,
+                        "updated_by": 3249367,
+                        "created_at": "2025-01-20T11:26:50.000000Z",
+                        "updated_at": "2025-01-20T11:26:50.000000Z"
+                    }
+                ]
+            },
+            "product_variant": [
+                {
+                    "id": 23349650,
+                    "product_id": 2410964,
+                    "variant_sku": "B0BXGLG4J1",
+                    "variant_selling_price": null,
+                    "variant_cost_price": 64.07,
+                    "variant_profit_margin": 10.89,
+                    "variant_size": "Twin",
+                    "variant_color": "Space",
+                    "profit_percentage": 17,
+                    "variant_product_type": null,
+                    "variant_weight": null,
+                    "map": null,
+                    "variant_inventory": 50000,
+                    "variant_image": "417/webp/k9IFG7cZNaSle2hc.webp",
+                    "variant_image_info": {
+                        "variant_image_url": "417/webp/k9IFG7cZNaSle2hc.webp"
+                    },
+                    "shipping_costs": [],
+                    "originalCost": null,
+                    "discount": null
+                }
+            ],
+            "product_image": [
+                {
+                    "id": 29036884,
+                    "full_image": "417/ux69J0dZM5YIy842.jpeg",
+                    "medium_image": null,
+                    "small_image": null,
+                    "webp_image": "417/webp/ux69J0dZM5YIy842.webp",
+                    "big": "417/webp/ux69J0dZM5YIy842.webp"
+                }
+            ],
+            "featured_image_url": "417/webp/ux69J0dZM5YIy842.webp",
+            "featuredProductImage": {
+                "id": 29036884,
+                "full_image": "417/ux69J0dZM5YIy842.jpeg",
+                "medium_image": null,
+                "small_image": null,
+                "webp_image": "417/webp/ux69J0dZM5YIy842.webp"
+            },
+            "similar_product": null,
+            "shippingCountries": [
+                "us"
+            ],
+            "tiktok_product_data": {
+                "is_available": true
+            },
+            "shipping_discount_rules": []
+        }
+    }
+}

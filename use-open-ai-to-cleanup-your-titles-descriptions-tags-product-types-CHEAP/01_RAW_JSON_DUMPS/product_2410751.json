@@ -1,0 +1,109 @@
+{
+    "status": "success",
+    "is_supplier_active": true,
+    "data": {
+        "in_stock_notification": false,
+        "product": {
+            "id": 2410751,
+            "name": "Jay Franco Sanrio Hello Kitty Twin Size Comforter Set - 5 Piece Red & Grey Bedding Includes Sheet Set & Pillow Covers - Super Soft Cozy Kawaii Bedding",
+            "description": "Transform your bedroom with our exciting 5-Piece twin bedding set! This complete bedding collection brings favorite characters to life turning bedtime into an adventure. Our set includes a cozy comforter (64\" x 86\") a fitted sheet with 10\" deep pockets (39\" x 75\" x 10\") a flat sheet (66\" x 96\") a decorative pillow sham (20\" x 26\") and a standard pillowcase (20\" x 30\"). Each piece is designed to create a comfortable and stylish sleep environment for your loved one. Crafted from premium 100% brushed microfiber polyester this bedding set offers the perfect blend of softness and durability. The breathable fabric ensures a restful nights sleep helping you wake up refreshed and ready for new adventures. Featuring vibrant designs with the ever adorable Hello Kitty this set sparks imagination and adds a playful touch to any room decor. You will love snuggling up with your favorite friends every night. Fans will appreciate the easy-care nature of this set. Its machine washable and long lasting keeping the colorful designs looking great wash after wash. Simply machine wash in cold water and tumble dry on low heat. Perfect for everyday use sleepovers or as a thoughtful gift for birthdays and holidays. Suitable for the Hello Kitty fan in your life this versatile bedding set is more than just bedding – its a ticket to dreamland adventures! Give yourself the gift of magical nights and restful sleep with our Hello Kitty twin bedding set. Its the ideal addition to any room combining comfort style and beloved characters in one fantastic package.",
+            "sku": null,
+            "inventory_tracking": false,
+            "base_selling_price": null,
+            "base_cost_price": "70.99",
+            "base_profit_margin": "12.07",
+            "product_type": null,
+            "featured_image": 29036795,
+            "status": 1,
+            "created_by": 3328809,
+            "quotable": null,
+            "isPrivate": false,
+            "featured": 0,
+            "supplier_id": 417,
+            "supplier_fee": 0,
+            "shipping_adapter": "shipping_supplier",
+            "display_price": "83.06",
+            "is_quoting": false,
+            "not_quotable": false,
+            "ready_for_quote": false,
+            "is_quoted": false,
+            "supplier": {
+                "id": 417,
+                "type": "zinc",
+                "name": "Amazon Products",
+                "processing_time": "0",
+                "is_disabled_marketplaces": false,
+                "user": {
+                    "id": 3328809
+                },
+                "country_info": {
+                    "id": 231,
+                    "name": "United States",
+                    "code": "US",
+                    "phonecode": 1
+                },
+                "average_shipping_times": [
+                    {
+                        "id": 98,
+                        "supplier_id": 417,
+                        "country_code": "US",
+                        "average_days": 2,
+                        "updated_by": 3249367,
+                        "created_at": "2025-01-20T11:26:50.000000Z",
+                        "updated_at": "2025-01-20T11:26:50.000000Z"
+                    }
+                ]
+            },
+            "product_variant": [
+                {
+                    "id": 23349439,
+                    "product_id": 2410751,
+                    "variant_sku": "B0DP3CJ5LQ",
+                    "variant_selling_price": null,
+                    "variant_cost_price": 70.99,
+                    "variant_profit_margin": 12.07,
+                    "variant_size": "Twin",
+                    "variant_color": "Grey - Hello Kitty",
+                    "profit_percentage": 17,
+                    "variant_product_type": null,
+                    "variant_weight": null,
+                    "map": null,
+                    "variant_inventory": 50000,
+                    "variant_image": "417/webp/uIC3229zybdZxxUZ.webp",
+                    "variant_image_info": {
+                        "variant_image_url": "417/webp/uIC3229zybdZxxUZ.webp"
+                    },
+                    "shipping_costs": [],
+                    "originalCost": null,
+                    "discount": null
+                }
+            ],
+            "product_image": [
+                {
+                    "id": 29036795,
+                    "full_image": "417/hF7dd6tjXNSzVZdr.jpeg",
+                    "medium_image": null,
+                    "small_image": null,
+                    "webp_image": "417/webp/hF7dd6tjXNSzVZdr.webp",
+                    "big": "417/webp/hF7dd6tjXNSzVZdr.webp"
+                }
+            ],
+            "featured_image_url": "417/webp/hF7dd6tjXNSzVZdr.webp",
+            "featuredProductImage": {
+                "id": 29036795,
+                "full_image": "417/hF7dd6tjXNSzVZdr.jpeg",
+                "medium_image": null,
+                "small_image": null,
+                "webp_image": "417/webp/hF7dd6tjXNSzVZdr.webp"
+            },
+            "similar_product": null,
+            "shippingCountries": [
+                "us"
+            ],
+            "tiktok_product_data": {
+                "is_available": true
+            },
+            "shipping_discount_rules": []
+        }
+    }
+}

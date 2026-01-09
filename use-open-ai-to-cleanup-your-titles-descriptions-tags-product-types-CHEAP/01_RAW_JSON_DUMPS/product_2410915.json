@@ -1,0 +1,109 @@
+{
+    "status": "success",
+    "is_supplier_active": true,
+    "data": {
+        "in_stock_notification": false,
+        "product": {
+            "id": 2410915,
+            "name": "Exclusivo Mezcla Boho Pom Pom Ball Fringe Twin Comforter Set 2 Piece Bright Pink Lightweight Down Alternative Bedding Comforter Sets for All Seasons (1 Comforter and 1 Pillowcase)",
+            "description": "[Package Included: Twin size comforter set comes with a ball pom fringe comforter twin size 68 x 88 inches and an envelope pillowcase 20 x 26 inches. Note: The pillow insert is not included. Please allow a 1-2 inch actual error Soft Material: The twin comforter is made of premium brushed microfiber and filled with down alternative polyester which make the comforters ultra-soft breathable cozy and sturdy Year Round Use: The bedding comforter sets are lightweight but warm enough for all seasons. Hidden neat dot-shaped stitching not only ensures the stability of the filling but also keeps the beauty of the bed comforter Ball Pom Design: The chic bohemian comforter sets are sewed with handmade cute pom pom ball fringe on three sides and you could place the side without the poms towards the head of the bed. The boho comforter is available in a variety of bright colors and sizes to fit all kinds of bed especially easily complement all your room style and home decor Easy Care: Machine washable in cold water and tumble dry on low in machine which can take a load of min 7 KG or sun-dry. Tips: The comforter comes in vacuum-sealed packaging it is highly recommended to wash it and tumble dry low temperature to puff the comforter before first use. Or you can expose it to sunlight and tap gently then it will re-fluffed nicely after hours]",
+            "sku": null,
+            "inventory_tracking": false,
+            "base_selling_price": null,
+            "base_cost_price": "28.99",
+            "base_profit_margin": "4.93",
+            "product_type": null,
+            "featured_image": 29036920,
+            "status": 1,
+            "created_by": 3328809,
+            "quotable": null,
+            "isPrivate": false,
+            "featured": 0,
+            "supplier_id": 417,
+            "supplier_fee": 0,
+            "shipping_adapter": "shipping_supplier",
+            "display_price": "33.92",
+            "is_quoting": false,
+            "not_quotable": false,
+            "ready_for_quote": false,
+            "is_quoted": false,
+            "supplier": {
+                "id": 417,
+                "type": "zinc",
+                "name": "Amazon Products",
+                "processing_time": "0",
+                "is_disabled_marketplaces": false,
+                "user": {
+                    "id": 3328809
+                },
+                "country_info": {
+                    "id": 231,
+                    "name": "United States",
+                    "code": "US",
+                    "phonecode": 1
+                },
+                "average_shipping_times": [
+                    {
+                        "id": 98,
+                        "supplier_id": 417,
+                        "country_code": "US",
+                        "average_days": 2,
+                        "updated_by": 3249367,
+                        "created_at": "2025-01-20T11:26:50.000000Z",
+                        "updated_at": "2025-01-20T11:26:50.000000Z"
+                    }
+                ]
+            },
+            "product_variant": [
+                {
+                    "id": 23349604,
+                    "product_id": 2410915,
+                    "variant_sku": "B0CC27J3V3",
+                    "variant_selling_price": null,
+                    "variant_cost_price": 28.99,
+                    "variant_profit_margin": 4.93,
+                    "variant_size": "Twin (68\"x88\")",
+                    "variant_color": "Bright Pink",
+                    "profit_percentage": 17,
+                    "variant_product_type": null,
+                    "variant_weight": null,
+                    "map": null,
+                    "variant_inventory": 50000,
+                    "variant_image": "417/webp/mfTc4MaJRESW8cV4.webp",
+                    "variant_image_info": {
+                        "variant_image_url": "417/webp/mfTc4MaJRESW8cV4.webp"
+                    },
+                    "shipping_costs": [],
+                    "originalCost": null,
+                    "discount": null
+                }
+            ],
+            "product_image": [
+                {
+                    "id": 29036920,
+                    "full_image": "417/TAsZ1kBBuZprwlTk.jpeg",
+                    "medium_image": null,
+                    "small_image": null,
+                    "webp_image": "417/webp/TAsZ1kBBuZprwlTk.webp",
+                    "big": "417/webp/TAsZ1kBBuZprwlTk.webp"
+                }
+            ],
+            "featured_image_url": "417/webp/TAsZ1kBBuZprwlTk.webp",
+            "featuredProductImage": {
+                "id": 29036920,
+                "full_image": "417/TAsZ1kBBuZprwlTk.jpeg",
+                "medium_image": null,
+                "small_image": null,
+                "webp_image": "417/webp/TAsZ1kBBuZprwlTk.webp"
+            },
+            "similar_product": null,
+            "shippingCountries": [
+                "us"
+            ],
+            "tiktok_product_data": {
+                "is_available": true
+            },
+            "shipping_discount_rules": []
+        }
+    }
+}

@@ -1,0 +1,109 @@
+{
+    "status": "success",
+    "is_supplier_active": true,
+    "data": {
+        "in_stock_notification": false,
+        "product": {
+            "id": 2409681,
+            "name": "ELNIDO QUEEN® Feather Comforter Filled with Feather & Downfiber- All Season Grey Twin Size Duvet Insert - Luxurious Fluffy Hotel Style Bedding Comforter - Ultra Soft 100% Cotton Cover Twin 68x90 Inch",
+            "description": "[【All Seasons Downfiber Comforter】ELNIDO QUEEN grey downfiber comforter twin is 68 x 90 Inch. With right weight and thickness comforters twin size offers good fluffiness medium warmth and cosiness for all seasons. It looks elegant and luxurious giving you luxury hotel bed feel. Can be used as a stand-alone comforter or as a downfiber duvet insert. 【Premium Material】Gray downfiber feather comforter is filled with premium feathers and downfiber and has certified to OEKO-TEX STANDARD 100. The cover/shell of comforter is 100% cotton which makes the comforter ultra-soft breathable and feels like sleeping in the clouds. Premium material guarantees high cleanness odourless low noise no static and skin-friendly downfiber blanket. 【Durable & Exquisite Details】Premium baffle box design construction keeps downfiber and feathers evenly in place and resists from any leaking to ensure a stable and comfortable sleep. The four durable corner tabs prevent downfiber quilt from shifting inside duvet cover. Excellent double needle hemming design to ensure its longevity for years. \"【Use Tips】Our comforter is vacuum packaged it will fluffy up nicely after beating lightly and leaving the comforter a few hours. Machine wash in the gentle cycle with cold water and dry at low temperatures. To maximise lengthen life of duvet insert its recommended to use a duvet cover.\" \"【Ideal Gift & Guarantee】ELNIDO QUEEN Cotton Comforter - a sweet gift to show your family and friends on Fathers Day Mothers Day Birthday Christmas New Year or Back to School.Your shopping experience is our first priority. For any reason you are unsatisfied with quality issue please contact us for help. We will try our best to settle the problems ASAP.\" \"【Brand Quality】ELNIDO QUEEN is a professional manufacturer of Feathers Downfiber with 20 years of experience. Our brand is ELNIDO QUEEN not ELNIDO. The brand name will appear on the label of the product so dont mistakenly think that you have bought the wrong size when you see QUEEN on the label. The specific size will be written on the right end of the label.\"]",
+            "sku": null,
+            "inventory_tracking": false,
+            "base_selling_price": null,
+            "base_cost_price": "80.99",
+            "base_profit_margin": "13.77",
+            "product_type": null,
+            "featured_image": 29034505,
+            "status": 1,
+            "created_by": 3328809,
+            "quotable": null,
+            "isPrivate": false,
+            "featured": 0,
+            "supplier_id": 417,
+            "supplier_fee": 0,
+            "shipping_adapter": "shipping_supplier",
+            "display_price": "94.76",
+            "is_quoting": false,
+            "not_quotable": false,
+            "ready_for_quote": false,
+            "is_quoted": false,
+            "supplier": {
+                "id": 417,
+                "type": "zinc",
+                "name": "Amazon Products",
+                "processing_time": "0",
+                "is_disabled_marketplaces": false,
+                "user": {
+                    "id": 3328809
+                },
+                "country_info": {
+                    "id": 231,
+                    "name": "United States",
+                    "code": "US",
+                    "phonecode": 1
+                },
+                "average_shipping_times": [
+                    {
+                        "id": 98,
+                        "supplier_id": 417,
+                        "country_code": "US",
+                        "average_days": 2,
+                        "updated_by": 3249367,
+                        "created_at": "2025-01-20T11:26:50.000000Z",
+                        "updated_at": "2025-01-20T11:26:50.000000Z"
+                    }
+                ]
+            },
+            "product_variant": [
+                {
+                    "id": 23348360,
+                    "product_id": 2409681,
+                    "variant_sku": "B0C2VQH9WJ",
+                    "variant_selling_price": null,
+                    "variant_cost_price": 80.99,
+                    "variant_profit_margin": 13.77,
+                    "variant_size": "Twin",
+                    "variant_color": "Grey",
+                    "profit_percentage": 17,
+                    "variant_product_type": null,
+                    "variant_weight": null,
+                    "map": null,
+                    "variant_inventory": 50000,
+                    "variant_image": "417/webp/whonhHpISW1D1QCT.webp",
+                    "variant_image_info": {
+                        "variant_image_url": "417/webp/whonhHpISW1D1QCT.webp"
+                    },
+                    "shipping_costs": [],
+                    "originalCost": null,
+                    "discount": null
+                }
+            ],
+            "product_image": [
+                {
+                    "id": 29034505,
+                    "full_image": "417/zMpNgJ18jxgrUEdu.jpeg",
+                    "medium_image": null,
+                    "small_image": null,
+                    "webp_image": "417/webp/zMpNgJ18jxgrUEdu.webp",
+                    "big": "417/webp/zMpNgJ18jxgrUEdu.webp"
+                }
+            ],
+            "featured_image_url": "417/webp/zMpNgJ18jxgrUEdu.webp",
+            "featuredProductImage": {
+                "id": 29034505,
+                "full_image": "417/zMpNgJ18jxgrUEdu.jpeg",
+                "medium_image": null,
+                "small_image": null,
+                "webp_image": "417/webp/zMpNgJ18jxgrUEdu.webp"
+            },
+            "similar_product": null,
+            "shippingCountries": [
+                "us"
+            ],
+            "tiktok_product_data": {
+                "is_available": true
+            },
+            "shipping_discount_rules": []
+        }
+    }
+}

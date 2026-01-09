@@ -1,0 +1,109 @@
+{
+    "status": "success",
+    "is_supplier_active": true,
+    "data": {
+        "in_stock_notification": false,
+        "product": {
+            "id": 2410898,
+            "name": "Pink Flower Duvet Cover Set Twin Soft Cotton Girls Cottagecore Bedding Set Twin Garden Style Peach Floral Comforter Cover Vintage Country Floral Bedding Set Botanical Duvet Cover with Zipper Closure",
+            "description": "[♥♥♥ Chic Shabby Botanical Floral 100% Cotton Duvet Cover Set With Zipper Closure and Corner Ties. This bedding set is only a cover for duvet not comforter set no comforter or fluffy insert included. 【Quality Material】- Botanical blush pink floral twin duvet cover set made of 100% cotton fabric creates a new standard of soft and comfortable sleeping experience exceptionally cozy breathable lightweight soft and skin-friendly. Chic floral cottagecore bedding sets perfect for all seasons use. 【Size Information】- 3 Piece garden floral twin size duvet cover sets come with 1 Twin Duvet Cover 68\" x 86\" 2 Pillowcases 20\" x 26\" 2 pillowcases with chic elegant bowknot design. ★(NO COMFORTER OR FITTED SHEET)★ \"【Unique Pattern】- Cottagecore Garden Floral Bedding Duvet Cover Set with Chic Shabby Pink Flower Leaves Botanical Print Pattern on White Duvet Cover Set fully reversible design add a nice sophistication to your home creating a high-fashion environment and a restful feeling in the bedroom. Suitable for kids teens babies toddlers students girls boys adults etc. Also its a Great Gift idea for Christmas New Year Wedding Birthday Holiday and Anniversary etc.\" 【Easy Care】- Floral botanical aesthetic duvet cover has zipper closure and 4 corner ties a great choice for duvet/comforter from staining. Machine wash in cold water with similar colors. Tumble dry low. Do not bleach. Washing before first use is recommended. 【3 Piece Set】- All seasons floral print botanical duvet cover set 1 cotton twin duvet cover with 2 pillowcases providing you a super cozy good night sleep. If you have any query or issue please feel free to contact us.]",
+            "sku": null,
+            "inventory_tracking": false,
+            "base_selling_price": null,
+            "base_cost_price": "49.09",
+            "base_profit_margin": "8.35",
+            "product_type": null,
+            "featured_image": 29036897,
+            "status": 1,
+            "created_by": 3328809,
+            "quotable": null,
+            "isPrivate": false,
+            "featured": 0,
+            "supplier_id": 417,
+            "supplier_fee": 0,
+            "shipping_adapter": "shipping_supplier",
+            "display_price": "57.44",
+            "is_quoting": false,
+            "not_quotable": false,
+            "ready_for_quote": false,
+            "is_quoted": false,
+            "supplier": {
+                "id": 417,
+                "type": "zinc",
+                "name": "Amazon Products",
+                "processing_time": "0",
+                "is_disabled_marketplaces": false,
+                "user": {
+                    "id": 3328809
+                },
+                "country_info": {
+                    "id": 231,
+                    "name": "United States",
+                    "code": "US",
+                    "phonecode": 1
+                },
+                "average_shipping_times": [
+                    {
+                        "id": 98,
+                        "supplier_id": 417,
+                        "country_code": "US",
+                        "average_days": 2,
+                        "updated_by": 3249367,
+                        "created_at": "2025-01-20T11:26:50.000000Z",
+                        "updated_at": "2025-01-20T11:26:50.000000Z"
+                    }
+                ]
+            },
+            "product_variant": [
+                {
+                    "id": 23349589,
+                    "product_id": 2410898,
+                    "variant_sku": "B0CRP7FP2G",
+                    "variant_selling_price": null,
+                    "variant_cost_price": 49.09,
+                    "variant_profit_margin": 8.35,
+                    "variant_size": "Twin(68\"x86\")",
+                    "variant_color": "A1# 01-2 Bow Tie Blush Pink",
+                    "profit_percentage": 17,
+                    "variant_product_type": null,
+                    "variant_weight": null,
+                    "map": null,
+                    "variant_inventory": 50000,
+                    "variant_image": "417/webp/QBoIDL6kaVaSGcpH.webp",
+                    "variant_image_info": {
+                        "variant_image_url": "417/webp/QBoIDL6kaVaSGcpH.webp"
+                    },
+                    "shipping_costs": [],
+                    "originalCost": null,
+                    "discount": null
+                }
+            ],
+            "product_image": [
+                {
+                    "id": 29036897,
+                    "full_image": "417/1PUN2Po4wb0JX6SU.jpeg",
+                    "medium_image": null,
+                    "small_image": null,
+                    "webp_image": "417/webp/1PUN2Po4wb0JX6SU.webp",
+                    "big": "417/webp/1PUN2Po4wb0JX6SU.webp"
+                }
+            ],
+            "featured_image_url": "417/webp/1PUN2Po4wb0JX6SU.webp",
+            "featuredProductImage": {
+                "id": 29036897,
+                "full_image": "417/1PUN2Po4wb0JX6SU.jpeg",
+                "medium_image": null,
+                "small_image": null,
+                "webp_image": "417/webp/1PUN2Po4wb0JX6SU.webp"
+            },
+            "similar_product": null,
+            "shippingCountries": [
+                "us"
+            ],
+            "tiktok_product_data": {
+                "is_available": true
+            },
+            "shipping_discount_rules": []
+        }
+    }
+}

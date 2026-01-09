@@ -1,0 +1,109 @@
+{
+    "status": "success",
+    "is_supplier_active": true,
+    "data": {
+        "in_stock_notification": false,
+        "product": {
+            "id": 2411573,
+            "name": "Axolotl Ball Sports Comforter Set FullFootball Soccer Bedding SetFootball Baseball Game Comforter SetBaseball Comforter SetHip Hop Graffiti Artwork Bedding for Boys Kids Men1 Quilt 2 Pillowcases",
+            "description": "[【3Pcs Ball Sports Comforter Set】 1X Comforter + 2X Pillow cases. ☞ PLEASE NOTE: No Pillow No Sheet No fitted sheet. 【Attractive Printing】Ball Sports Comforter Set For Kids Boys Teens AdultsSports Comforter Set Bright Vibrant Colored For Your BedroomThe Bedspread Is Soft And Comfortable For Use Throughout Every Season. 【High Quality】100% Polyester fabric which is softcomfortable breathable and durablemaking an additional bedtime fun and cloud-like feeling.Appropriate for all seasons. \"【Great Gift】Kids Comforter & pillowcases can be used as childrens birthday giftsHalloween Christmas giftsbeautiful and practical.Funeye-catching print that appeals to boys and girls.\" 【Easy to Care】Easy care. This colorful duvet set is machine wash mild in cold water and tumble dry on low. Do not bleach.Do not soak. Since the quilt is vacuum bagged there may be some wrinkles when you receive it. You can put it in the dryer on low heat to help smooth out wrinkles and it will come out fluffy.]",
+            "sku": null,
+            "inventory_tracking": false,
+            "base_selling_price": null,
+            "base_cost_price": "53.99",
+            "base_profit_margin": "9.18",
+            "product_type": null,
+            "featured_image": 29038318,
+            "status": 1,
+            "created_by": 3328809,
+            "quotable": null,
+            "isPrivate": false,
+            "featured": 0,
+            "supplier_id": 417,
+            "supplier_fee": 0,
+            "shipping_adapter": "shipping_supplier",
+            "display_price": "63.17",
+            "is_quoting": false,
+            "not_quotable": false,
+            "ready_for_quote": false,
+            "is_quoted": false,
+            "supplier": {
+                "id": 417,
+                "type": "zinc",
+                "name": "Amazon Products",
+                "processing_time": "0",
+                "is_disabled_marketplaces": false,
+                "user": {
+                    "id": 3328809
+                },
+                "country_info": {
+                    "id": 231,
+                    "name": "United States",
+                    "code": "US",
+                    "phonecode": 1
+                },
+                "average_shipping_times": [
+                    {
+                        "id": 98,
+                        "supplier_id": 417,
+                        "country_code": "US",
+                        "average_days": 2,
+                        "updated_by": 3249367,
+                        "created_at": "2025-01-20T11:26:50.000000Z",
+                        "updated_at": "2025-01-20T11:26:50.000000Z"
+                    }
+                ]
+            },
+            "product_variant": [
+                {
+                    "id": 23350264,
+                    "product_id": 2411573,
+                    "variant_sku": "B0CH33ZBBX",
+                    "variant_selling_price": null,
+                    "variant_cost_price": 53.99,
+                    "variant_profit_margin": 9.18,
+                    "variant_size": "Full",
+                    "variant_color": "N-football",
+                    "profit_percentage": 17,
+                    "variant_product_type": null,
+                    "variant_weight": null,
+                    "map": null,
+                    "variant_inventory": 50000,
+                    "variant_image": "417/webp/HbN8ZQhYyYv5GhQr.webp",
+                    "variant_image_info": {
+                        "variant_image_url": "417/webp/HbN8ZQhYyYv5GhQr.webp"
+                    },
+                    "shipping_costs": [],
+                    "originalCost": null,
+                    "discount": null
+                }
+            ],
+            "product_image": [
+                {
+                    "id": 29038318,
+                    "full_image": "417/uzbP9U7BNPN6cON9.jpeg",
+                    "medium_image": null,
+                    "small_image": null,
+                    "webp_image": "417/webp/uzbP9U7BNPN6cON9.webp",
+                    "big": "417/webp/uzbP9U7BNPN6cON9.webp"
+                }
+            ],
+            "featured_image_url": "417/webp/uzbP9U7BNPN6cON9.webp",
+            "featuredProductImage": {
+                "id": 29038318,
+                "full_image": "417/uzbP9U7BNPN6cON9.jpeg",
+                "medium_image": null,
+                "small_image": null,
+                "webp_image": "417/webp/uzbP9U7BNPN6cON9.webp"
+            },
+            "similar_product": null,
+            "shippingCountries": [
+                "us"
+            ],
+            "tiktok_product_data": {
+                "is_available": true
+            },
+            "shipping_discount_rules": []
+        }
+    }
+}

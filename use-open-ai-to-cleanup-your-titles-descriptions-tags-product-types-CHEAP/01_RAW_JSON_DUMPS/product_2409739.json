@@ -1,0 +1,109 @@
+{
+    "status": "success",
+    "is_supplier_active": true,
+    "data": {
+        "in_stock_notification": false,
+        "product": {
+            "id": 2409739,
+            "name": "tohrisa Seashell Jacquard Sherpa Comforter Set Warm Cozy Premium Bedding 3 Pieces King Size Geometric Pattern Quilt Comforter with 2 Pillowcases(104\"X90\" Coffee)",
+            "description": "[Sherpa Material: The comforter set is made of exclusive microfiber and the comforter fills high -quality down replacement fibers. These premium materials make it particularly soft and comfortable Reversible Design: The front side features a unique shell jacquard design adding a sophisticated and stylish touch to your bedroom.The reverse side is made of solid white Sherpa fabric providing a clean and pure look that brightens and complements any decor What can you get: This King Size set includes 3 pieces: 1 comforter with the size of 104\"X90\" and 2 pillowcases with the size of 20\"X36\" Easy Care: This comforter set machine washable you can easily wash it with the washing machine with cold water and then dry it at low temperature \"Excellent Customer Service: Please dont hesitate to contact us with any questions about our products\"]",
+            "sku": null,
+            "inventory_tracking": false,
+            "base_selling_price": null,
+            "base_cost_price": "100.99",
+            "base_profit_margin": "17.17",
+            "product_type": null,
+            "featured_image": 29034551,
+            "status": 1,
+            "created_by": 3328809,
+            "quotable": null,
+            "isPrivate": false,
+            "featured": 0,
+            "supplier_id": 417,
+            "supplier_fee": 0,
+            "shipping_adapter": "shipping_supplier",
+            "display_price": "118.16",
+            "is_quoting": false,
+            "not_quotable": false,
+            "ready_for_quote": false,
+            "is_quoted": false,
+            "supplier": {
+                "id": 417,
+                "type": "zinc",
+                "name": "Amazon Products",
+                "processing_time": "0",
+                "is_disabled_marketplaces": false,
+                "user": {
+                    "id": 3328809
+                },
+                "country_info": {
+                    "id": 231,
+                    "name": "United States",
+                    "code": "US",
+                    "phonecode": 1
+                },
+                "average_shipping_times": [
+                    {
+                        "id": 98,
+                        "supplier_id": 417,
+                        "country_code": "US",
+                        "average_days": 2,
+                        "updated_by": 3249367,
+                        "created_at": "2025-01-20T11:26:50.000000Z",
+                        "updated_at": "2025-01-20T11:26:50.000000Z"
+                    }
+                ]
+            },
+            "product_variant": [
+                {
+                    "id": 23348419,
+                    "product_id": 2409739,
+                    "variant_sku": "B0D9HCK2S5",
+                    "variant_selling_price": null,
+                    "variant_cost_price": 100.99,
+                    "variant_profit_margin": 17.17,
+                    "variant_size": "King(104\"x90\")",
+                    "variant_color": "Coffee",
+                    "profit_percentage": 17,
+                    "variant_product_type": null,
+                    "variant_weight": null,
+                    "map": null,
+                    "variant_inventory": 50000,
+                    "variant_image": "417/webp/m1HPLNgOF0M9zrC9.webp",
+                    "variant_image_info": {
+                        "variant_image_url": "417/webp/m1HPLNgOF0M9zrC9.webp"
+                    },
+                    "shipping_costs": [],
+                    "originalCost": null,
+                    "discount": null
+                }
+            ],
+            "product_image": [
+                {
+                    "id": 29034551,
+                    "full_image": "417/E9RlySf8b3LV8tEy.jpeg",
+                    "medium_image": null,
+                    "small_image": null,
+                    "webp_image": "417/webp/E9RlySf8b3LV8tEy.webp",
+                    "big": "417/webp/E9RlySf8b3LV8tEy.webp"
+                }
+            ],
+            "featured_image_url": "417/webp/E9RlySf8b3LV8tEy.webp",
+            "featuredProductImage": {
+                "id": 29034551,
+                "full_image": "417/E9RlySf8b3LV8tEy.jpeg",
+                "medium_image": null,
+                "small_image": null,
+                "webp_image": "417/webp/E9RlySf8b3LV8tEy.webp"
+            },
+            "similar_product": null,
+            "shippingCountries": [
+                "us"
+            ],
+            "tiktok_product_data": {
+                "is_available": true
+            },
+            "shipping_discount_rules": []
+        }
+    }
+}

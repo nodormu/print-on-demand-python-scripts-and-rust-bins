@@ -1,0 +1,109 @@
+{
+    "status": "success",
+    "is_supplier_active": true,
+    "data": {
+        "in_stock_notification": false,
+        "product": {
+            "id": 2410068,
+            "name": "mixinni 3 Pieces Duvet Covers Twin XL Size 100% Cotton Comforter Cover Wildflower Printed on Pumpkin Floral Bedding Set with Zipper Closure 4 Ties (1 Duvet Cover 68\"x90\" 2 Pillow Cases 20\"x26\")",
+            "description": "[\"★【Unique Design&A Perfect Holiday Gift】--Decorate your bed in this twin xl size aesthetic bedding duvet cover set this cottagecore floral duvet cover features botanical wildflowers branches on the caramel duvet cover set transforms your bedroom into a beautiful and graceful space. Perfect for daughter son husband wife kid friend guest family also a GREAT GIFT for Christmas Birthdays Wedding Mothers day Valentines day Homecoming Holidays and more.\" \"★【Perfect for All Seasons】--Cotton as a natural fabric is wonderful for helping maintain that body temperature during the night. 100% Cotton Duvet Cover Set is breathable natural and moisture-absorbing which means any air trapped between your body and the fabric can circulate making it suitable for many different climates. Our caramel floral duvet cover set is Standard 100 by OEKO-TEX certified as safe on skin building a comfortable bed for your family and get the high-quality nights rest.\" ★【Zipper&Ties】--The garden style caramel flower print duvet cover with hidden zipper closure and 4 corner ties make it easy and efficient to fix and protect duvet/comforter from staining. Pillowcase enclosure prevents the pillow insert from spilling out. \"★【Choosing Duvet Cover Set】--Whether you are purchasing a duvet cover set for your bedroom guest room vacation home or anywhere else! Its going to be a great choice--the garden style cute floral duvet cover set instantly livens up your bedroom with simple style. Includes matching pillowcases to create a modern and chic look.\" ★【CARE INSTRUCTIONS】--This pastoral style floral leaf print duvet cover set is machine washable which can save you more time and energy simply machine wash cold gentle cycle with like colors tumble dry low do not bleach. Use minimal effort to keep the beautiful floral duvet cover set fresh and cozy reduce the pressure of life and give you more time to enjoy life. ★【What you will get】--This garden floral print duvet cover set includes 1 soft comfy flower leaves duvet cover twin xl size 68x90 inch and 2 matching pillowcases 20x26 inch. Comforter/duvet insert sold separately.]",
+            "sku": null,
+            "inventory_tracking": false,
+            "base_selling_price": null,
+            "base_cost_price": "50.99",
+            "base_profit_margin": "8.67",
+            "product_type": null,
+            "featured_image": 29035270,
+            "status": 1,
+            "created_by": 3328809,
+            "quotable": null,
+            "isPrivate": false,
+            "featured": 0,
+            "supplier_id": 417,
+            "supplier_fee": 0,
+            "shipping_adapter": "shipping_supplier",
+            "display_price": "59.66",
+            "is_quoting": false,
+            "not_quotable": false,
+            "ready_for_quote": false,
+            "is_quoted": false,
+            "supplier": {
+                "id": 417,
+                "type": "zinc",
+                "name": "Amazon Products",
+                "processing_time": "0",
+                "is_disabled_marketplaces": false,
+                "user": {
+                    "id": 3328809
+                },
+                "country_info": {
+                    "id": 231,
+                    "name": "United States",
+                    "code": "US",
+                    "phonecode": 1
+                },
+                "average_shipping_times": [
+                    {
+                        "id": 98,
+                        "supplier_id": 417,
+                        "country_code": "US",
+                        "average_days": 2,
+                        "updated_by": 3249367,
+                        "created_at": "2025-01-20T11:26:50.000000Z",
+                        "updated_at": "2025-01-20T11:26:50.000000Z"
+                    }
+                ]
+            },
+            "product_variant": [
+                {
+                    "id": 23348752,
+                    "product_id": 2410068,
+                    "variant_sku": "B0DH2B2TWV",
+                    "variant_selling_price": null,
+                    "variant_cost_price": 50.99,
+                    "variant_profit_margin": 8.67,
+                    "variant_size": "Twin XL",
+                    "variant_color": "04 - Wildflower-caramel",
+                    "profit_percentage": 17,
+                    "variant_product_type": null,
+                    "variant_weight": null,
+                    "map": null,
+                    "variant_inventory": 50000,
+                    "variant_image": "417/webp/u4HvVEurLvjGUfcT.webp",
+                    "variant_image_info": {
+                        "variant_image_url": "417/webp/u4HvVEurLvjGUfcT.webp"
+                    },
+                    "shipping_costs": [],
+                    "originalCost": null,
+                    "discount": null
+                }
+            ],
+            "product_image": [
+                {
+                    "id": 29035270,
+                    "full_image": "417/HPDDtodcNLQkIzhN.jpeg",
+                    "medium_image": null,
+                    "small_image": null,
+                    "webp_image": "417/webp/HPDDtodcNLQkIzhN.webp",
+                    "big": "417/webp/HPDDtodcNLQkIzhN.webp"
+                }
+            ],
+            "featured_image_url": "417/webp/HPDDtodcNLQkIzhN.webp",
+            "featuredProductImage": {
+                "id": 29035270,
+                "full_image": "417/HPDDtodcNLQkIzhN.jpeg",
+                "medium_image": null,
+                "small_image": null,
+                "webp_image": "417/webp/HPDDtodcNLQkIzhN.webp"
+            },
+            "similar_product": null,
+            "shippingCountries": [
+                "us"
+            ],
+            "tiktok_product_data": {
+                "is_available": true
+            },
+            "shipping_discount_rules": []
+        }
+    }
+}

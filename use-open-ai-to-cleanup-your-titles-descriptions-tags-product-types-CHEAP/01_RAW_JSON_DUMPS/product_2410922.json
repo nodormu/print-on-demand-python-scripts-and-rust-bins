@@ -1,0 +1,109 @@
+{
+    "status": "success",
+    "is_supplier_active": true,
+    "data": {
+        "in_stock_notification": false,
+        "product": {
+            "id": 2410922,
+            "name": "chovy Faux Fur Plush Sky Blue Comforter Sets Queen - Ultra Soft Shaggy Flannel Velvet Fluffy Fuzzy 3PC Bedding Set （Comforter x 1 Pillowcases x 2）",
+            "description": "Package Included1xComforter 90\" (W) x 90\" (L)2xPillowcases 20\" (W) x 30\" (L)FunctionA Nice GiftA Soft Warm And Beautiful Comforter SetsProduct SuggestionPlease Bake in the sun before use.Please Machine wash in cold water.",
+            "sku": null,
+            "inventory_tracking": false,
+            "base_selling_price": null,
+            "base_cost_price": "70.99",
+            "base_profit_margin": "12.07",
+            "product_type": null,
+            "featured_image": 29036952,
+            "status": 1,
+            "created_by": 3328809,
+            "quotable": null,
+            "isPrivate": false,
+            "featured": 0,
+            "supplier_id": 417,
+            "supplier_fee": 0,
+            "shipping_adapter": "shipping_supplier",
+            "display_price": "83.06",
+            "is_quoting": false,
+            "not_quotable": false,
+            "ready_for_quote": false,
+            "is_quoted": false,
+            "supplier": {
+                "id": 417,
+                "type": "zinc",
+                "name": "Amazon Products",
+                "processing_time": "0",
+                "is_disabled_marketplaces": false,
+                "user": {
+                    "id": 3328809
+                },
+                "country_info": {
+                    "id": 231,
+                    "name": "United States",
+                    "code": "US",
+                    "phonecode": 1
+                },
+                "average_shipping_times": [
+                    {
+                        "id": 98,
+                        "supplier_id": 417,
+                        "country_code": "US",
+                        "average_days": 2,
+                        "updated_by": 3249367,
+                        "created_at": "2025-01-20T11:26:50.000000Z",
+                        "updated_at": "2025-01-20T11:26:50.000000Z"
+                    }
+                ]
+            },
+            "product_variant": [
+                {
+                    "id": 23349610,
+                    "product_id": 2410922,
+                    "variant_sku": "B0CBPKWS73",
+                    "variant_selling_price": null,
+                    "variant_cost_price": 70.99,
+                    "variant_profit_margin": 12.07,
+                    "variant_size": "Full/Queen",
+                    "variant_color": "Sky Blue",
+                    "profit_percentage": 17,
+                    "variant_product_type": null,
+                    "variant_weight": null,
+                    "map": null,
+                    "variant_inventory": 50000,
+                    "variant_image": "417/webp/kPXUibtFI6Dg8q4H.webp",
+                    "variant_image_info": {
+                        "variant_image_url": "417/webp/kPXUibtFI6Dg8q4H.webp"
+                    },
+                    "shipping_costs": [],
+                    "originalCost": null,
+                    "discount": null
+                }
+            ],
+            "product_image": [
+                {
+                    "id": 29036952,
+                    "full_image": "417/YwyNHnPMBO75llPD.jpeg",
+                    "medium_image": null,
+                    "small_image": null,
+                    "webp_image": "417/webp/YwyNHnPMBO75llPD.webp",
+                    "big": "417/webp/YwyNHnPMBO75llPD.webp"
+                }
+            ],
+            "featured_image_url": "417/webp/YwyNHnPMBO75llPD.webp",
+            "featuredProductImage": {
+                "id": 29036952,
+                "full_image": "417/YwyNHnPMBO75llPD.jpeg",
+                "medium_image": null,
+                "small_image": null,
+                "webp_image": "417/webp/YwyNHnPMBO75llPD.webp"
+            },
+            "similar_product": null,
+            "shippingCountries": [
+                "us"
+            ],
+            "tiktok_product_data": {
+                "is_available": true
+            },
+            "shipping_discount_rules": []
+        }
+    }
+}

@@ -1,0 +1,109 @@
+{
+    "status": "success",
+    "is_supplier_active": true,
+    "data": {
+        "in_stock_notification": false,
+        "product": {
+            "id": 2410719,
+            "name": "EXQ Home Fluffy Comforter Set King Size - Super Soft Faux Fur Stripe Jacquard Comforter 3 Pieces Pink Fleece Bedding SetWinter Warm Bed Set1 Comforter with 2 Pillowcases",
+            "description": "[Ultra-Soft Flannel Material:Experience the luxurious comfort of our fluffy bed comforter set crafted from premium flannel fabric. the ultra-soft texture provides a gentle cozy feel perfect for snuggling up during chilly nights. this flannel material is known for its warmth and durability ensuring you stay comfortable and cozy all year round. Stripe Design:The plush comforter features a stylish stripe pattern that adds both elegance and function. the design not only enhances the visual appeal of your bedroom but also ensures the filling remains evenly distributed providing consistent warmth. the fluffy and voluminous construction is perfect for keeping you warm and comfortable throughout the night. Enhance Your Bedroom Décor:Elevate your bedroom’s aesthetic with the comforter bedding set’s classic design and rich texture. the stripe pattern and plush material create a sophisticated yet cozy ambiance making it a versatile addition to any decor style. perfect for updating your master bedroom or adding a touch of luxury to a guest room. Suitable Size: Our fleece comforter set king size offers a 104x90 inch comforter with two 20x36 inch pillow shams.it provide ample coverage and a tailored look ensuring your bed is as inviting as it is comfortable. Easy Care & Maintenance:Caring for your comforter set is a breeze. made with easy-care flannel this set is machine washable allowing for quick and convenient cleaning. simply wash on a gentle cycle with cold water and tumble dry on low heat. the durable fabric resists pilling and fading ensuring long-lasting softness and vibrant color with minimal effort.]",
+            "sku": null,
+            "inventory_tracking": false,
+            "base_selling_price": null,
+            "base_cost_price": "59.99",
+            "base_profit_margin": "10.20",
+            "product_type": null,
+            "featured_image": 29036585,
+            "status": 1,
+            "created_by": 3328809,
+            "quotable": null,
+            "isPrivate": false,
+            "featured": 0,
+            "supplier_id": 417,
+            "supplier_fee": 0,
+            "shipping_adapter": "shipping_supplier",
+            "display_price": "70.19",
+            "is_quoting": false,
+            "not_quotable": false,
+            "ready_for_quote": false,
+            "is_quoted": false,
+            "supplier": {
+                "id": 417,
+                "type": "zinc",
+                "name": "Amazon Products",
+                "processing_time": "0",
+                "is_disabled_marketplaces": false,
+                "user": {
+                    "id": 3328809
+                },
+                "country_info": {
+                    "id": 231,
+                    "name": "United States",
+                    "code": "US",
+                    "phonecode": 1
+                },
+                "average_shipping_times": [
+                    {
+                        "id": 98,
+                        "supplier_id": 417,
+                        "country_code": "US",
+                        "average_days": 2,
+                        "updated_by": 3249367,
+                        "created_at": "2025-01-20T11:26:50.000000Z",
+                        "updated_at": "2025-01-20T11:26:50.000000Z"
+                    }
+                ]
+            },
+            "product_variant": [
+                {
+                    "id": 23349407,
+                    "product_id": 2410719,
+                    "variant_sku": "B0DL9ZHRRQ",
+                    "variant_selling_price": null,
+                    "variant_cost_price": 59.99,
+                    "variant_profit_margin": 10.2,
+                    "variant_size": "3 Piece-King (104\"X90\")",
+                    "variant_color": "Pink",
+                    "profit_percentage": 17,
+                    "variant_product_type": null,
+                    "variant_weight": null,
+                    "map": null,
+                    "variant_inventory": 50000,
+                    "variant_image": "417/webp/4FdZJOH11g34p7mu.webp",
+                    "variant_image_info": {
+                        "variant_image_url": "417/webp/4FdZJOH11g34p7mu.webp"
+                    },
+                    "shipping_costs": [],
+                    "originalCost": null,
+                    "discount": null
+                }
+            ],
+            "product_image": [
+                {
+                    "id": 29036585,
+                    "full_image": "417/12IErucGFqAYXnT8.jpeg",
+                    "medium_image": null,
+                    "small_image": null,
+                    "webp_image": "417/webp/12IErucGFqAYXnT8.webp",
+                    "big": "417/webp/12IErucGFqAYXnT8.webp"
+                }
+            ],
+            "featured_image_url": "417/webp/12IErucGFqAYXnT8.webp",
+            "featuredProductImage": {
+                "id": 29036585,
+                "full_image": "417/12IErucGFqAYXnT8.jpeg",
+                "medium_image": null,
+                "small_image": null,
+                "webp_image": "417/webp/12IErucGFqAYXnT8.webp"
+            },
+            "similar_product": null,
+            "shippingCountries": [
+                "us"
+            ],
+            "tiktok_product_data": {
+                "is_available": true
+            },
+            "shipping_discount_rules": []
+        }
+    }
+}
